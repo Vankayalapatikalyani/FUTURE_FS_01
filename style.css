@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.profile-img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    display: block;
+    margin: 15px auto;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: auto;
+}
+
+.section {
+    padding: 15px;
+    background: white;
+    margin: 15px 0;
+    border-radius: 10px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
+
+.section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+}
+
+ul.portfolio-list {
+    padding: 0;
+    list-style: none;
+}
+
+ul.portfolio-list li {
+    display: inline;
+    margin: 0 8px;
+}
+
+#contact-form {
+    width: 80%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+.contact p {
+    font-weight: bold;
+    color: black;
+}
+
+.contact a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.contact a:hover {
+    text-decoration: underline;
+}
